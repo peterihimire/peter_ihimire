@@ -1,0 +1,21 @@
+{
+  "name": "peter_ihimire",
+  "version": "1.0.0",
+  "description": "my portfolio web",
+  "main": "index.js",
+  "scripts": {
+    "deploy": "gh-pages -d dist"
+  },
+  "keywords": [
+    "peter",
+    "ihimire",
+    "peterihimire",
+    "portfolio"
+  ],
+  "author": "Peter Ihimire",
+  "license": "ISC",
+  "homepage": "https://peterihimire.github.io/peter_ihimire",
+  "dependencies": {
+    "gh-pages": "^2.1.1"
+  }
+}
