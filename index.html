@@ -36,19 +36,22 @@
                 <ul class="navbar_links">
                     <!-- single link -->
                     <li>
-                        <a href="#index" class="navbar_single-link">welcome</a>
+                        <a href="#index" class="navbar_single-link"> <i class="fas fa-home"></i> welcome</a>
                     </li>
                     <li>
-                        <a href="#about" class="navbar_single-link">about me</a>
+                        <a href="#about" class="navbar_single-link">  <i class="fas fa-info-circle"></i> about me</a>
                     </li>
                     <li>
-                        <a href="#portfolio" class="navbar_single-link">portfolio</a>
+                        <a href="#portfolio" class="navbar_single-link">  <i class="fas fa-briefcase"></i> portfolio</a>
                     </li>
                     <li>
-                        <a href="#blog" class="navbar_single-link">blog</a>
+                        <a href="#skill" class="navbar_single-link">  <i class="fas fa-cog"></i> skills</a>
                     </li>
                     <li>
-                        <a href="#contact" class="navbar_single-link">contact me</a>
+                        <a href="#blog" class="navbar_single-link">  <i class="fas fa-blog"></i> blog</a>
+                    </li>
+                    <li>
+                        <a href="#contact" class="navbar_single-link">  <i class="fas fa-envelope"></i> contact me</a>
                     </li>
                 </ul>
             </div>
@@ -65,25 +68,44 @@
             <div class="header-content">
                 <h1>peter ihimire</h1>
                 <p>front-end web developer</p>
-                <a href="#">
-                    <i class="fab fa-facebook-f fa-1x"></i>
+                <ul>
+                  <li>
+                      <a href="#">
+                          <i class="fab fa-facebook-f fa-1x"></i>
+                      </a>
+                  </li>
+                  <li>
+                      <a href="#">
+                          <i class="fab fa-twitter fa-1x"></i>
+                      </a>
+                  </li>
+                  <li>
+                      <a href="#">
+                          <i class="fab fa-instagram fa-1x"></i>
+                      </a>
+                  </li>
+                  <li>
+                      <a href="#">
+                          <i class="fab fa-linkedin-in fa-1x"></i>
+                      </a>
+                  </li>
+                  <li>
+                      <a href="#">
+                          <i class="fab fa-github fa-1x"></i>
+                      </a>
+                  </li>
+                  
+                </ul>
+
+                <a href="#contact" class="btn">
+                    <i class="fas fa-envelope"></i> contact me
                 </a>
-                <a href="#">
-                    <i class="fab fa-twitter fa-1x"></i>
-                </a>
-                <a href="#">
-                    <i class="fab fa-instagram fa-1x"></i>
-                </a>
-                <a href="#">
-                    <i class="fab fa-linkedin-in fa-1x"></i>
-                </a>
-                <a href="#">
-                    <i class="fab fa-github fa-1x"></i>
+
+                <a href="#c-testimonials" class="indicator">
+                  <i class="fas fa-chevron-down"></i>
                 </a>
             </div>
-            <a href="#contact" class="btn">
-                    <i class="fas fa-envelope"></i> contact me
-            </a>
+            
         </div>
     </header>
     <!--end of header section -->
@@ -92,7 +114,7 @@
 
 
     <!--glider js -->
-    <section class="testimonial">
+    <section class="testimonial" id="c-testimonials">
         
         <div class="glider_wrapper">
 
@@ -111,7 +133,7 @@
                     
                     <figure>
                         <div class="figure_img">
-                            <img src="images/peter.jpg" alt="" class="img_round">
+                            <img src="images/squarequick_201912518220567.jpg" alt="" class="img_round">
                         </div>
                         <hr>
                         <div class="contain">
@@ -122,12 +144,23 @@
                     
                     <figure>
                         <div class="figure_img">
-                            <img src="images/peter.jpg" alt="" class="img_round">
+                            <img src="images/C360_2019-12-05-18-11-30-527.jpg" alt="" class="img_round">
                         </div>
                         <hr>
                         <div class="contain">
                             <blockquote>Peter has always been my best bet when it comes to making websites.</blockquote>
-                        <figcaption> Beatrice </figcaption>
+                        <figcaption> Bridget </figcaption>
+                        </div>
+                    </figure>
+
+                    <figure>
+                        <div class="figure_img">
+                            <img src="images/C360_2019-12-05-18-22-22-175.jpg" alt="" class="img_round">
+                        </div>
+                        <hr>
+                        <div class="contain">
+                            <blockquote>Peter has always been my best bet when it comes to making websites.</blockquote>
+                        <figcaption> Maria </figcaption>
                         </div>
                     </figure>
 
@@ -138,18 +171,7 @@
                         <hr>
                         <div class="contain">
                             <blockquote>Peter has always been my best bet when it comes to making websites.</blockquote>
-                        <figcaption> Beatrice </figcaption>
-                        </div>
-                    </figure>
-
-                    <figure>
-                        <div class="figure_img">
-                            <img src="images/peter.jpg" alt="" class="img_round">
-                        </div>
-                        <hr>
-                        <div class="contain">
-                            <blockquote>Peter has always been my best bet when it comes to making websites.</blockquote>
-                        <figcaption> Beatrice </figcaption>
+                        <figcaption> Peter </figcaption>
                         </div>
                     </figure>
                 </div>
@@ -171,10 +193,12 @@
 
 
     <!-- feature section -->
-    <section id="feature_section">
+    <section id="feature_section" >
         <div class="container">
+         
 
             <div class="features">
+                <h1 class="blue-heading">features</h1>
                 <div class="core-features">
                     <div class="cores">
                         <i class="fas fa-rocket"></i>
@@ -209,7 +233,7 @@
 
 
     <!-- about section -->
-    <section id="about" class="grey_section" >
+    <section id="about" class="grey_section white-section"  >
         <div class="container">
             <div class="sub-header">
                 <div>
@@ -228,13 +252,13 @@
                     <img src="images/peter.jpg" alt="Peters Pix" id="img">
                 </div>
                 <div class="img-bio2 box-1">
-                    <h3>Let me tell you a few things...</h3>
+                    <h2>Let me tell you few things,</h2>
 
                     <p>Based in Nigeria, am a seasoned Front-End web developer, passionate about building excellent software that improves the lives of those around me. I have a Bachelor of Engineering (BEng) degree in Electrical Electronics, but have real passion for programming and web development, where I specilize in creating unique, market-centric, informative websites that put my clients above their competition, ranging from individuals and small businesses all the way to large enterprice corporations.</p>
 
                     <p>I approach every project with an attention to detail and determination to exceed my clients expectations. My process is very collaborative. I like to involve my clients closely in every stage of the project, listening and fully understanding their requirements so as to deliver an online solution that meets their business goals.</p>
 
-                    <p>When am not programming, tweeting, you'll find me in my home studio cooking up some youtube tech videos , or out in the park taking some landscape pictures, often I work out in the gym too . Click to download my <a href="#">resume</a> , for more information.</p>
+                    <p>When am not programming, tweeting, you'll find me in my home studio cooking up some youtube tech videos, where I share my thoughts about mobile technologies, often I work out in the gym too . Click to download my <a href="#">resume</a> , for more information.</p>
                     
                 </div>
             </div>
@@ -244,19 +268,19 @@
             <div class="stack-bio">
                 <div class=" box-2" data-aos="slide-up" data-aos-offset="200" data-aos-easing="ease-in-sine" data-aos-duration="500">
                     <h3>Web Designer</h3>
-                    <h6>Front End Developer</h6>
+                    <h5>Front End Developer</h5>
                     <p>I can build front end for my clients with nice visual using technologies such as HTML, CSS, JavaScript, React, Bootstrap etc. Feel free to check out some of my work in my <a href="#portfolio">portfolio section</a>. </p>
                 </div>
 
                 <div class="box-2" data-aos="slide-up" data-aos-offset="200" data-aos-easing="ease-in-sine" data-aos-duration="1000">
                     <h3>Web Developer</h3>
-                    <h6>Back End Developer</h6>
+                    <h5>Back End Developer</h5>
                     <p>I've always been drawn to the overlap between design and development. In addition to Front-End development, I am also a Back-End developer. Technologies I use for backend are Node.JS, API, NoSQL and SQL.</p>
                 </div>
 
                 <div class="box-2" data-aos="slide-up" data-aos-offset="200" data-aos-easing="ease-in-sine" data-aos-duration="1500">
                     <h3>Mentor  </h3>
-                    <h6>Mentoring Developers</h6>
+                    <h5>Mentoring Developers</h5>
                     <p> I know how it feels like starting on the journey of Web development and software engineering, I've been there, thats why I genuinely care about newbies and fellow developers, helping them improve on their skill. </p>
                 </div>
             </div>
@@ -267,7 +291,7 @@
 
 
 
-    <!-- porfolio section -->
+    <!-- portfolio section -->
     <section class="portfolio_section" id="portfolio">
         <div class="container">
             <div class="sub-header">
@@ -296,14 +320,20 @@
                     </a>
                     
                     <div class="contain">
-                        <h4>JS Shopping Cart App</h4>
+                        <h3>E-Commerce Front-End</h3>
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur optio tempora dolore, commodi distinctio officia sed quaerat maiores repellat accusamus? Saepe tempore necessitatibus quidem excepturi totam soluta, porro vero iure.</p>
-                        <h6>Technologies:</h6>
+                        <h4>Technologies:</h4>
                         <div class="techno">
-                            <div class="tech1 tech">HTML</div>
+                          <ul>
+                            <li>html</li>
+                            <li>css</li>
+                            <li>javascript</li>
+                            <li>node js</li>
+                          </ul>
+                            <!-- <div class="tech1 tech">HTML</div>
                             <div class="tech2 tech">CSS</div>
                             <div class="tech3 tech">JavaScript</div>
-                            <div class="tech4 tech">Node.JS</div>
+                            <div class="tech4 tech">Node.JS</div> -->
                         </div>
                         <hr>
                         <div class="btn-flex">
@@ -311,7 +341,7 @@
                                 <i class="fab fa-chrome"></i> Open Project
                             </a>
                             
-                            <a href="#" class="portfolio-btn">
+                            <a href="#" class="portfolio-btn2">
                                 <i class="fab fa-github"></i> Github
                             </a>       
                         </div>
@@ -330,14 +360,16 @@
                       </a>
                       
                       <div class="contain">
-                          <h4>Blog </h4>
+                          <h3>Blog Website </h3>
                           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur optio tempora dolore, commodi distinctio officia sed quaerat maiores repellat accusamus? Saepe tempore necessitatibus quidem excepturi totam soluta, porro vero iure.</p>
-                          <h6>Technologies:</h6>
+                          <h4>Technologies:</h4>
                           <div class="techno">
-                              <div class="tech1 tech">HTML</div>
-                              <div class="tech2 tech">CSS</div>
-                              <div class="tech3 tech">JavaScript</div>
-                              <div class="tech4 tech">Node.JS</div>
+                              <ul>
+                                <li>html</li>
+                                <li>css</li>
+                                <li>javascript</li>
+                                <li>node js</li>
+                              </ul>
                           </div>
                           <hr>
                           <div class="btn-flex">
@@ -345,7 +377,7 @@
                                   <i class="fab fa-chrome"></i> Open Project
                               </a>
                               
-                              <a href="#" class="portfolio-btn">
+                              <a href="#" class="portfolio-btn2">
                                   <i class="fab fa-github"></i> Github
                               </a>       
                           </div>
@@ -363,14 +395,16 @@
                         </div>
                     </a>
                     <div class="contain">
-                        <h4>My Portfolio</h4>
+                        <h3>Portfolio Website</h3>
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur optio tempora dolore, commodi distinctio officia sed quaerat maiores repellat accusamus? Saepe tempore necessitatibus quidem excepturi totam soluta, porro vero iure.</p>
-                        <h6>Technologies:</h6>
+                        <h4>Technologies:</h4>
                         <div class="techno">
-                            <div class="tech1 tech">HTML</div>
-                            <div class="tech2 tech">CSS</div>
-                            <div class="tech3 tech">JavaScript</div>
-                            <div class="tech4 tech">Node.JS</div>
+                            <ul>
+                              <li>html</li>
+                              <li>css</li>
+                              <li>javascript</li>
+                              <li>node js</li>
+                            </ul>
                         </div>
                         <hr>
                         <div class="btn-flex">
@@ -378,7 +412,7 @@
                                 <i class="fab fa-chrome"></i> Open Project
                             </a>
                             
-                            <a href="#" class="portfolio-btn">
+                            <a href="#" class="portfolio-btn2">
                                 <i class="fab fa-github"></i> Github
                             </a>       
                         </div>
@@ -395,13 +429,15 @@
                             </div>
                         </a>
                     <div class="contain">
-                        <h4>JS Quiz App</h4>
+                        <h3>Quiz Website</h3>
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur optio tempora dolore, commodi distinctio officia sed quaerat maiores repellat accusamus? Saepe tempore necessitatibus quidem excepturi totam soluta, porro vero iure.</p>
-                        <h6>Technologies:</h6>
+                        <h4>Technologies:</h4>
                         <div class="techno">
-                            <div class="tech1 tech">HTML</div>
-                            <div class="tech2 tech">CSS</div>
-                            <div class="tech3 tech">JavaScript</div>
+                            <ul>
+                              <li>html</li>
+                              <li>css</li>
+                              <li>javascript</li>
+                            </ul>
                         </div>
                         <hr>
                         <div class="btn-flex">
@@ -409,7 +445,7 @@
                                 <i class="fab fa-chrome"></i> Open Project
                             </a>
                             
-                            <a href="#" class="portfolio-btn">
+                            <a href="#" class="portfolio-btn2">
                                 <i class="fab fa-github"></i> Github
                             </a>       
                         </div>
@@ -425,72 +461,124 @@
 
 
     <!-- specialty -->
-    <section class="specialty-section">
+    <section class="specialty-section" id="skill">
+    
       <div class="container">
+
+          <div class="sub-header">
+              <div>
+                  <h1 class="lg-heading">
+                      <span class="text-primary" >My</span><span class="text-secondary" > Skills</span>
+                  </h1>
+                  <h2 class="sm-heading">
+                      Here are the skills I possess...
+                  </h2>
+              </div>
+          </div>
+
+          <!-- <h1 class="blue-heading">skills</h1> -->
           <div class="specialty_wrapper">
               <div class="specialty" data-aos="flip-right" data-aos-offset="200" data-aos-easing="ease-in-sine" data-aos-duration="1500">
-                  <div class="inner_box">
-                      <i class="fab fa-html5 "></i>
-                  </div>
-                  <h4>html</h4>
-                  <hr>
+                <a href="">
+                    <div class="inner_box">
+                        <i class="fab fa-html5 "></i>
+                    </div>
+                    <h4>html</h4>
+                    <hr>
+                </a>
               </div>
 
             <div class="specialty" data-aos="flip-right" data-aos-offset="200" data-aos-easing="ease-in-sine" data-aos-duration="1500">
+              <a href="">
                   <div class="inner_box">
                       <i class="fab fa-css3-alt "></i>
                   </div>
                   <h4>css</h4>
                   <hr>
+              </a>
+                  
               </div>
 
               <div class="specialty" data-aos="flip-right" data-aos-offset="200" data-aos-easing="ease-in-sine" data-aos-duration="1500">
-                  <div class="inner_box">
-                      <i class="fab fa-js "></i>
-                  </div>
-                  <h4>JavaScript</h4>
-                  <hr>
+                <a href="">
+                    <div class="inner_box">
+                        <i class="fab fa-js "></i>
+                    </div>
+                    <h4>JavaScript</h4>
+                    <hr>
+                </a>
+                  
               </div>
 
               <div class="specialty" data-aos="flip-right" data-aos-offset="200" data-aos-easing="ease-in-sine" data-aos-duration="1500">
-                  <div class="inner_box">
-                      <i class="fab fa-less "></i>
-                  </div>
-                  <h4>less</h4>
-                  <hr>
+                  <a href="">
+                      <div class="inner_box">
+                          <i class="fas fa-bold "></i>
+                      </div>
+                      <h4>Bootstrap</h4>
+                      <hr>
+                  </a>
               </div>
 
              <div class="specialty" data-aos="flip-right" data-aos-offset="200" data-aos-easing="ease-in-sine" data-aos-duration="1500">
-                  <div class="inner_box">
-                      <i class="fab fa-react "></i>
-                  </div>
-                  <h4>react</h4>
-                  <hr>
+                <a href="">
+                    <div class="inner_box">
+                        <i class="fab fa-react "></i>
+                    </div>
+                    <h4>react</h4>
+                    <hr>
+                </a>
               </div>
 
               <div class="specialty" data-aos="flip-right" data-aos-offset="200" data-aos-easing="ease-in-sine" data-aos-duration="1500">
-                  <div class="inner_box">
-                      <i class="fab fa-node-js "></i>
-                  </div>
-                  <h4>node js</h4>
-                  <hr>
+                  <a href="">
+                      <div class="inner_box">
+                          <i class="fab fa-node-js "></i>
+                      </div>
+                      <h4>node js</h4>
+                      <hr>
+                  </a>
               </div>
 
              <div class="specialty" data-aos="flip-right" data-aos-offset="200" data-aos-easing="ease-in-sine" data-aos-duration="1500">
-                <div class="inner_box">
-                    <i class="fab fa-linux "></i>
-                </div>
-                <h4>linux</h4>
-                <hr>
+                <a href="">
+                    <div class="inner_box">
+                        <i class="fab fa-linux "></i>
+                    </div>
+                    <h4>linux</h4>
+                    <hr>
+                </a>
             </div>
 
            <div class="specialty" data-aos="flip-right" data-aos-offset="200" data-aos-easing="ease-in-sine" data-aos-duration="1500">
-              <div class="inner_box">
-                  <i class="fab fa-git "></i>
-              </div>
-              <h4>git</h4>
-              <hr>
+              <a href="">
+                  <div class="inner_box">
+                      <i class="fab fa-git "></i>
+                  </div>
+                  <h4>git</h4>
+                  <hr>
+              </a>
           </div>
+
+          <div class="specialty" data-aos="flip-right" data-aos-offset="200" data-aos-easing="ease-in-sine" data-aos-duration="1500">
+              <a href="">
+                  <div class="inner_box">
+                      <i class="fab fa-gulp "></i>
+                  </div>
+                  <h4>gulp</h4>
+                  <hr>
+              </a>
+          </div>
+
+        <div class="specialty" data-aos="flip-right" data-aos-offset="200" data-aos-easing="ease-in-sine" data-aos-duration="1500">
+            <a href="">
+                <div class="inner_box">
+                    <i class="fab fa-sass "></i>
+                </div>
+                <h4>sass</h4>
+                <hr>
+            </a>
+        </div>
 
           </div>
       </div>
