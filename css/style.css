@@ -47,12 +47,10 @@ body {
 
 .text-secondary{
     color: var(--secondaryColor);
-    /* font-size: var(--mediumFont); */
     margin: 0 4rem 0 1rem;
 }
 
 .text-primary{
-    /* font-size: var(--mediumFont); */
     margin: 0 0 0 4rem;
 }
 
@@ -137,6 +135,28 @@ body {
     margin-left: 0;
 }
 
+.navbar_links .fa-home {
+  color: blue;
+}
+.navbar_links .fa-cog {
+  color:orangered;
+}
+
+.navbar_links .fa-info-circle {
+  color:purple;
+}
+
+.navbar_links .fa-blog {
+  color:orange;
+}
+
+.navbar_links .fa-envelope {
+  color:limegreen;
+}
+.navbar_links .fa-briefcase {
+  color:black;
+}
+
 .navbar_collapse{
     height: 25rem;
 }
@@ -146,7 +166,7 @@ body {
     background: none;
     padding: 1rem 2rem;
     font-size: 1.6rem;
-    /* font-weight: 530; */
+    font-weight: 540;
     text-decoration: none;
     text-transform: capitalize;
     cursor: pointer;
@@ -183,13 +203,12 @@ header{
     left: 0;
     background: #333;
     z-index: 1;
-    opacity: 0.4;
+    opacity: 0.6;
 }
 
 .header-content{
    z-index: 1; 
    color: var(--mainWhite);
-   /* font-size: 3.5rem; */
    text-transform: uppercase;
    display: flex;
    flex-direction: column;
@@ -210,12 +229,12 @@ header{
 
 .header-content ul [class*='fab fa-']  {
     color:var(--mainWhite);
-    border: .1rem solid var(--mainWhite);
+    /* border: .1rem solid var(--mainWhite);
     line-height: 4rem;
     height: 40px;
     width: 40px;
-    border-radius: 50%;
-    font-size: 3rem;
+    border-radius: 50%; */
+    font-size: 4rem;
 }
 
 .header-content ul {
@@ -225,7 +244,7 @@ header{
 }
 .header-content li {
   list-style: none;
-  margin: 0 .5rem;
+  margin: 0 1rem;
 }
 
 .header-content li:hover {
@@ -327,13 +346,12 @@ transition: transform 150ms;
 .specialty h4 {
     margin: 1rem 0 0 0;
     text-transform: uppercase;
-    
-    /* color: var(--mainWhite); */
+    color: var(--primaryColor);
 }
 
 .inner_box {
     
-    background: var(--primaryColor);
+    background: var(--mainGrey);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -342,10 +360,43 @@ transition: transform 150ms;
 }
 
 .inner_box i {
-    color: var(--mainWhite);
+    /* color: var(--mainWhite); */
     padding: 3rem;
     font-size: 4rem;
 }
+
+.inner_box .fa-react {
+  color: cyan;
+}
+.inner_box .fa-js {
+  color: yellow;
+}
+.inner_box .fa-node-js {
+  color: limegreen;
+}
+.inner_box .fa-bold {
+  color: purple;
+}
+.inner_box .fa-gulp {
+  color: #db4446;
+}
+.inner_box .fa-git {
+  color: var(--secondaryColor);
+}
+.inner_box .fa-sass {
+  color: pink;
+}
+.inner_box .fa-html5 {
+  color: orange;
+}
+.inner_box .fa-css3-alt {
+  color: blue;
+}
+.inner_box .fa-linux {
+  color: black;
+}
+
+
 /* ---------- End of Skills ---------- */
 
 
@@ -431,16 +482,19 @@ figcaption{
 
 
 #feature_section{
-    background:  var(--primaryColor);
-    color: var(--mainWhite);
+    /* background:  var(--primaryColor); */
+    color: var(--mainBlack);
 }
 
 .features{
   padding:6rem  0 8rem 0;
 }
 
-.cores h4 {
+
+.features .cores h4 {
   margin: 3rem 0 1rem 0;
+  font-size: 1.8rem;
+  color: var(--primaryColor);
 }
 
 .core-features{
@@ -453,8 +507,8 @@ figcaption{
 }
 
 .features [class*='fas fa-']{
-    color: var(--mainWhite);
-    background-color: var(--primaryColor);
+    color: var(--primaryColor);
+    /* background-color: var(--primaryColor); */
     z-index: 5;
     display: inline-block;
     text-align: center;
@@ -462,13 +516,33 @@ figcaption{
 }
 
 .features [class*='fab fa-']{
-    color: var(--mainWhite);
-    background-color: var(--primaryColor);
+    color: var(--primaryColor);
+    /* background-color: var(--primaryColor); */
     z-index: 5;
     display: inline-block;
     text-align: center;
     font-size: 8rem;
 }
+
+.features [class='fas fa-rocket'] {
+  color: rgb(231, 198, 6);
+}
+
+
+.features [class='fab fa-connectdevelop'] {
+  color: rgb(4, 189, 14);
+}
+
+
+.features [class='fas fa-heartbeat'] {
+  color: rgb(255, 20, 90);
+}
+
+
+.features [class='fas fa-desktop'] {
+  color: purple;
+}
+
 /* ---------- End of Feature ---------- */
 
 
@@ -532,7 +606,7 @@ figcaption{
 
 .stack-bio a {
   text-decoration: none;
-  color: var(--primaryColor);
+  color: blue;
 }
 
 .box-1 h2 {
@@ -540,7 +614,7 @@ figcaption{
 }
 .box-1 a {
   text-decoration: none;
-  color: var(--primaryColor);
+  color: blue;
 }
 
 .box-2{
@@ -554,6 +628,10 @@ figcaption{
 
 .box-2:hover{
   box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+.box-2 h3 {
+  color: var(--primaryColor);
 }
 
 .box-2 h5 {
@@ -839,17 +917,25 @@ textarea{
     list-style: none;
 }
 
-.row{
+/* .row{
     flex-basis: 30%;
+} */
+
+.row ul {
+  display: flex;
 }
 
+.row li {
+  margin: 0 1rem 0 0;
+}
 .row h4{
+  font-size: 1.8rem;
   margin-bottom: 2rem;
 }
 
 .row p a {
     text-decoration: none;
-    color: var(--primaryColor);
+    color: blue;
 }
 
 .row ul a {
@@ -858,20 +944,42 @@ textarea{
 }
 
 .row ul a i {
-    color: var(--mainBlack);
-    border: 1px solid var(--mainWhite);
+    color: var(--mainWhite);
+    /* border: 1px solid var(--mainWhite); */
     line-height: 3rem;
     height: 30px;
     width: 30px;
-    display: inline-block;
+    /* display: inline-block; */
     text-align: center;
-    border-radius: 50%;
+    border-radius: .5rem;
     font-size: 2.5rem;
-    background: var(--mainWhite);
+   
 }
 
+.row .fa-facebook-f {
+  background: #3b5998;
+}
+.row .fa-twitter {
+  background: #55acee;
+}
+.row .fa-instagram {
+  background: #e95950;
+}
+.row .fa-linkedin-in {
+  background: #007bb5;
+}
+.row .fa-github {
+  background: #04669a;
+}
+
+
 .row_contact h4 {
+  font-size: 1.8rem;
   margin-bottom: 2rem;
+}
+
+.row_contact li {
+  margin: 0 0 2rem 0;
 }
 
 
@@ -882,13 +990,13 @@ textarea{
 
 .row_contact ul a i {
     color: var(--mainBlack);
-    border: 1px solid var(--mainWhite);
+    /* border: 1px solid var(--mainWhite); */
     line-height: 3rem;
     height: 30px;
     width: 30px;
-    display: inline-block;
+    /* display: inline-block; */
     text-align: center;
-    border-radius: 50%;
+    border-radius: .5rem;
     font-size: 2rem;
     background: var(--mainWhite);
 }
@@ -972,10 +1080,21 @@ footer{
 
 
   
+
+  
 }
 
 
 @media screen and (min-width: 768px){
+
+  .navbar_header{
+    background: var(--mainWhite);
+    border-bottom: none;
+    padding-top: 1rem ;
+    position: fixed;
+    width: 100%;
+    z-index: 2;
+}
 
   .lg-heading{
     font-size: var(--mediumFont);

@@ -15,17 +15,17 @@ navbarBtn.addEventListener('click' , () => {
 })
 
 // For Glider JS 
-new Glider(document.querySelector('.glider'), {
-    slidesToShow: 4,
-    slidesToScroll: 1,
-    draggable: true,
-    duration: 0.5,
-    dots: '#dots',
-    arrows: {
-        prev: '.glider-prev',
-        next: '.glider-next'
-    }
-});
+// new Glider(document.querySelector('.glider'), {
+//     slidesToShow: 4,
+//     slidesToScroll: 1,
+//     draggable: true,
+//     duration: 0.5,
+//     dots: '#dots',
+//     arrows: {
+//         prev: '.glider-prev',
+//         next: '.glider-next'
+//     }
+// });
 
 // For AOS
 AOS.init();
